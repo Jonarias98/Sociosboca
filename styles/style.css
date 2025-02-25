@@ -100,6 +100,21 @@ div li{
     background-color: darkblue;
     margin-top: 10px;
 }
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-prensa {
+        width: 100%;
+    }
+}
 
 
 
