@@ -238,3 +238,32 @@ p {
     background-color: #f3b229;
     border-color: #070707;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;  /* Azul de Boca */
+    color: white;
+}
+
+footer a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+footer a:hover {
+    color: #f3b229;  /* Amarillo de Boca */
+}
+.blockquote-footer{
+    margin-top: 0%;
+    color
+}
