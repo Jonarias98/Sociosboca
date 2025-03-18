@@ -8,26 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    
-
     <title>Socios Boca - Contacto</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
             <div class="container-fluid">
-                <!-- Logo -->
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/icons/Boca_escudo.png" alt="Boca_escudo" class="logo">
                 </a>
-                <!-- Botón hamburguesa -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span>
-                        <img class="menu-png" src="../assets/icons/menu hamburguesa.png" alt="menu.png">
+                        <img class="navbar-toggler-icon" src="../assets/icons/menu hamburguesa.png" alt="menu.png">
                     </span>
-
                 </button>
-                <!-- NAV -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -53,7 +47,7 @@
     <main class="container mt-5">
         <section class="text-center">
             <h1 class="titulos">Contacto</h1>
-            <p class="lead">
+            <p class="p-contactos">
                 Si todavía no sos socio de Boca, comunicate con nosotros y te ayudaremos con el trámite. <br>
                 ¡No te pierdas la oportunidad de ser socio del mejor club del mundo! <br>
                 Completa este formulario y nos estaremos comunicando con vos a la brevedad.
@@ -61,23 +55,23 @@
         </section>
         <section class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
-                <form action="/submit" method="post" class="p-4 border rounded shadow">
+                <form action="/submit" method="post" class="custom-form shadow">
                     <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre Completo</label>
-                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingresa tu nombre" required>
+                        <label for="nombre" class="form-label custom-label">Nombre Completo</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control custom-input" placeholder="Ingresa tu nombre" required>
                     </div>
                     
                     <div class="mb-3">
-                        <label for="email" class="form-label">Correo Electrónico</label>
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu correo" required>
+                        <label for="email" class="form-label custom-label">Correo Electrónico</label>
+                        <input type="email" name="email" id="email" class="form-control custom-input" placeholder="Ingresa tu correo" required>
                     </div>
                     
                     <div class="mb-3">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea name="mensaje" id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                        <label for="mensaje" class="form-label custom-label">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control custom-textarea" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
                     </div>
     
-                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    <button type="submit" class="custom-btn w-100">Enviar</button>
                 </form>
             </div>
         </section>

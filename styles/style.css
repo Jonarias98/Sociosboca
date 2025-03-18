@@ -49,14 +49,15 @@ input:focus {
 body {
     font-family: "Nunito Sans", serif;
     background-color: #e7e2ed;
-    padding: 20px;
+    padding: 10px;
 }
 
 .subtitulos {
-    color: #140f07;
+    color: #122071;
     font-style: italic;
     font-weight: 400;
-    margin: 20px;
+    margin: initial;
+    text-align: start;
 }
 
 .titulos {
@@ -67,7 +68,17 @@ body {
 }
 
 p {
+    text-align: justify;
     font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+.p-contactos{
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
     margin-bottom: 2rem;
 }
 
@@ -174,4 +185,56 @@ p {
 
 .bg-light {
     background-color: #122071 !important; /* Aquí pones el color que prefieras */
+}
+.historia-lista {
+    list-style: none; 
+    padding: 0;
+}
+
+.historia-lista li::before {
+    content: "⭐"; 
+    color: gold; 
+    font-size: 1.2rem; 
+    margin-right: 8px; 
+}
+.custom-form {
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.custom-label {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.custom-input {
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.custom-input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 91, 179, 0.6);
+}
+
+.custom-textarea {
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.custom-btn {
+    background-color: #122071;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-btn:hover {
+    background-color: #f3b229;
+    border-color: #070707;
 }
