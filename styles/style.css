@@ -1,5 +1,8 @@
-.subtitulos {
-  color: #122071;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
