@@ -1,0 +1,8 @@
+//TIPOGRAFIA
+@mixin text-style($size, $line-height, $style: normal) {
+    font-size: $size;
+    line-height: $line-height;
+    font-style: $style;
+}
+
+

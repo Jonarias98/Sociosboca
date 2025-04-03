@@ -61,11 +61,7 @@ p {
     color: #333;
     margin-bottom: 2rem;
 }
-.p-contactos{
-    text-align: center;
-    color: #333;
-    margin-bottom: 2rem;
-}
+
 
 #imagen-index {
     width: 1080px;
@@ -177,46 +173,6 @@ p {
 .historia-lista li::before {
     color: gold;  
     margin-right: 8px; 
-}
-.custom-form {
-    background-color: #f8f9fa;
-    border: 2px solid #007bff;
-    padding: 2rem;
-    border-radius: 10px;
-}
-
-.custom-label {
-    color: #007bff;
-}
-
-.custom-input {
-    background-color: #e9ecef;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-}
-
-.custom-input:focus {
-    border-color: #0056b3;
-    box-shadow: 0 0 5px rgba(0, 91, 179, 0.6);
-}
-
-.custom-textarea {
-    background-color: #e9ecef;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-}
-
-.custom-btn {
-    background-color: #122071;
-    border: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.custom-btn:hover {
-    background-color: #f3b229;
-    border-color: #070707;
 }
 footer {
     text-align: center;

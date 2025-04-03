@@ -1,6 +1,12 @@
-//BASE//
+//UTILITIES
 
+@import 'partials/utilities/variables';
+@import 'partials/utilities/mixins';
+
+//BASE//
 @import 'partials/base/reset';
 @import 'partials/base/tipografia';
 
+//COMPONENTS//
+@import 'partials/components/aboutUs';
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Playfair+Display:wght@400;700&display=swap');
