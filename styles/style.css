@@ -38,6 +38,12 @@ p {
   font-style: normal;
 }
 
+.p-contactos-b {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-style: normal;
+}
+
 .p-footer {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1rem;
@@ -75,7 +81,7 @@ footer a {
 }
 
 body {
-  background-image: url(../../../assets/img/Bombonera.jpg.jpg);
+  background-image: url(../assets/img/bombonera.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,16 +131,32 @@ body {
 
 .p-contactos {
   text-align: center;
-  color: #f9f9f9;
+  color: #ffc307;
   margin-bottom: 4rem;
+}
+
+.p-contactos-b {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #ffc307;
+  margin-bottom: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.fondo-titulo {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem 0;
+  margin: 0 auto;
 }
 
 .titulos {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 4rem;
   color: #f9f9f9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   text-align: center;
-  margin: 2rem;
+  margin: 0;
 }
 
 .mapa-container {

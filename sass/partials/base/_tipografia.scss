@@ -23,6 +23,10 @@ p {
 .p-contactos {
     @include text-style($font-size-large,$line-height-base, )
 }
+.p-contactos-b{
+    @include text-style($font-size-large,$line-height-base )
+}
+
 .p-footer {
     font-family: $font-primary;
     font-size: $font-size-base;
