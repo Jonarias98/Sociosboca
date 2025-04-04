@@ -1,0 +1,56 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: $color-primary;  
+    color: $white;
+    border-top: 3px solid $azul-claro;
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .footer-club-icon {
+        width: 60px;
+        height: auto;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 15px;
+        color: $color-primary;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+
+    .footer-icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .p-footer {
+        margin-top: 10px;
+        font-size: 14px;
+        color: $white;
+    }
+}
+
+.blockquote-footer {
+    margin-top: 0%;
+    color: $color-primary;
+}

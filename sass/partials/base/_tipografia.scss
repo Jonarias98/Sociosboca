@@ -9,7 +9,8 @@ body {
 }
 .titulos {
     font-family: $font-secondary;
-    font-size: 3rem;
+    font-size: $font-size-xl;
+    font-weight: 300;
 }
 
 .subtitulos {
@@ -20,7 +21,7 @@ p {
     @include text-style($font-size-base,$line-height-base, )
 }
 .p-contactos {
-    @include text-style($font-size-base,$line-height-base, )
+    @include text-style($font-size-large,$line-height-base, )
 }
 .p-footer {
     font-family: $font-primary;

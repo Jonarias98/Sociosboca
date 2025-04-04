@@ -1,0 +1,13 @@
+//BOTON CONTACTO
+.custom-btn {
+    background-color: #122071;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-btn:hover {
+    background-color: $color-primary;
+    border-color: #070707;
+}

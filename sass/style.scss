@@ -9,4 +9,15 @@
 
 //COMPONENTS//
 @import 'partials/components/aboutUs';
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Playfair+Display:wght@400;700&display=swap');
+@import 'partials/components/botones';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+//VARIABLES
+@import 'partials/utilities/variables';
+
+//NAVBAR
+@import 'partials/components/navbar';
+
+//FOOTER
+@import 'partials/components/footer';
