@@ -1,5 +1,8 @@
 body{
-    background-color: $color-primary;
+    background-image: url(../../../assets/img/Bombonera.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .custom-form {
@@ -18,7 +21,6 @@ body{
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
     }
 }
-
 
 @media (max-width: 768px) {
     .custom-form {
