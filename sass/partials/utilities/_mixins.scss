@@ -5,4 +5,10 @@
     font-style: $style;
 }
 
-
+@mixin main-padding {
+    padding: 80px 1rem 1rem; 
+    
+    @media (max-width: 768px) {
+        padding: 100px 1rem 2rem;
+    }
+}

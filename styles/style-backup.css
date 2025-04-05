@@ -5,10 +5,7 @@
 
 
 /* BODY */
-body {
-    background-color: #e7e2ed;
-    padding: 10px;
-}
+
 
 .subtitulos {
         
@@ -21,11 +18,7 @@ body {
     text-align: center;
 }
 
-p {
-    text-align: justify;
-    color: #333;
-    margin-bottom: 2rem;
-}
+
 
 
 #imagen-index {
@@ -51,19 +44,6 @@ p {
 }
 
 /* FOOTER */
-.p-footer {
-    color: darkblue;
-    text-align: center;
-}
-
-.p-footer::after {
-    
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: darkblue;
-    margin-top: 10px;
-}
 
 
 @media (max-width: 768px) {

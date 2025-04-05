@@ -1,0 +1,13 @@
+body {
+    background-color: #e7e2ed;
+    padding: 10px;
+}
+main{
+    @include main-padding;
+}
+
+p {
+    text-align: justify;
+    color: $color-secondary;
+    margin-bottom: 2rem;
+}
