@@ -45,10 +45,13 @@ p {
 }
 .historia-lista {
     list-style: none;
+    & li  {
+        color: $white ;}
     & li::before {
         content: "⭐"; 
         list-style: none;
         font-size: 1.2rem;
+        margin-right: 0.5rem;
     }
 }
 .custom-label {
