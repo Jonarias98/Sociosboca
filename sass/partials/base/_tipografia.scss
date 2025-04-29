@@ -16,6 +16,9 @@ body {
 .subtitulos {
     font-style: italic;
     font-weight: 400;
+    color: $white;
+    margin: initial;
+    text-align: start;
 }
 p {
     @include text-style($font-size-base,$line-height-base, )

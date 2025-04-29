@@ -24,6 +24,9 @@ body {
 .subtitulos {
   font-style: italic;
   font-weight: 400;
+  color: #f9f9f9;
+  margin: initial;
+  text-align: start;
 }
 
 p {
