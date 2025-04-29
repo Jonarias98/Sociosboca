@@ -64,10 +64,14 @@ p {
 .historia-lista {
   list-style: none;
 }
+.historia-lista li {
+  color: #f9f9f9;
+}
 .historia-lista li::before {
   content: "⭐";
   list-style: none;
   font-size: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 .custom-label {
@@ -108,12 +112,12 @@ main {
 
 p {
   text-align: justify;
-  color: #ffc307;
+  color: #f9f9f9;
   margin-bottom: 2rem;
 }
 
 body {
-  background-image: url(../../../assets/img/Boca-fondo.jpg);
+  background-image: url(../assets/img/Boca-fondo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
