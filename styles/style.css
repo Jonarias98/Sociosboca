@@ -85,6 +85,15 @@ body {
   padding: 10px;
 }
 
+.fondo-titulo {
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .fondo-titulo {
+    padding-top: 40px;
+  }
+}
 main {
   padding: 80px 1rem 1rem;
 }

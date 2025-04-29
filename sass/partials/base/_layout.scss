@@ -2,6 +2,16 @@ body {
     background-color: #e7e2ed;
     padding: 10px;
 }
+.fondo-titulo {
+    padding-top: 80px; 
+}
+
+@media (max-width: 768px) {
+    .fondo-titulo {
+        padding-top: 40px; 
+    }
+}
+
 main{
     @include main-padding;
 }
